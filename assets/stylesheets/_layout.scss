@@ -1,0 +1,19 @@
+$desktop: 950px;
+$tablet: 750px;
+$mobile: 550px;
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  background: red;
+}
+
+
+// Media queries
+
+// @media (max-height: 950px) {
+//   .container {
+//     width: 700px;
+//     background: blue;
+//   }
+// }

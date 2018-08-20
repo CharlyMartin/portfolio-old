@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/app'
+import App from './components/app';
 
 import '../assets/stylesheets/application.scss';
 
+
 const root = document.getElementById('root');
-ReactDOM.render(<App/>, root);
+ReactDOM.render(<App />, root);
