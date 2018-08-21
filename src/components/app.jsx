@@ -4,6 +4,8 @@ import SideBar from './sidebar';
 import Header from './header';
 import List from './list';
 
+import content from '../../data/content.js'
+
 class App extends Component {
   render() {
     return (
@@ -19,7 +21,7 @@ class App extends Component {
             </div>
 
             <div className="content-container">
-              <Header />
+              <Header content={content}/>
               <List />
               <List />
               <List />

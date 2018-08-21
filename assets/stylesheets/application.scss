@@ -1,4 +1,8 @@
-@import 'colours';
-@import 'fonts';
-@import 'page';
-@import 'layout';
+@import 'config/colours';
+@import 'config/fonts';
+
+@import 'layouts/container';
+
+@import 'pages/home';
+
+@import 'components/button'
