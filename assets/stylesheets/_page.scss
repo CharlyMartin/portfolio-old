@@ -7,11 +7,27 @@ body {
   position: relative;
 }
 
-.hero {
+.background-light {
   height: 80vh;
   background: $orange-light;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
+}
+
+
+.sidebar-container {
+  flex: 0 0 30%;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+}
+
+
+.content-container {
+  flex: 0 0 70%;
+  // height:
 }

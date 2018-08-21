@@ -8,9 +8,13 @@ $mobile: 550px;
   background: red;
 }
 
+.container-layout {
+  display: flex;
+}
+
+
 
 // Media queries
-
 // @media (max-height: 950px) {
 //   .container {
 //     width: 700px;
