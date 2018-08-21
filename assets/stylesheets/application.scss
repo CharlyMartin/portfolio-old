@@ -1,8 +1,14 @@
+// Config
 @import 'config/colours';
 @import 'config/fonts';
 
+// Layout
 @import 'layouts/container';
 
+// Components
+@import 'components/button';
+
+// Pages
 @import 'pages/home';
 
-@import 'components/button'
+
