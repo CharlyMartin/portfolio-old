@@ -1,11 +1,16 @@
 .btn-main {
   padding: 10px 15px;
-  background: $orange;
+  background: $orange-brand;
+  color: white;
   border-radius: 3px;
   width: fit-content;
   // box-shadow:
 }
 
 .btn-secondary {
-
+  padding: 10px 15px;
+  color: $orange;
+  border: 1px solid $orange-brand;
+  border-radius: 3px;
+  width: fit-content;
 }
