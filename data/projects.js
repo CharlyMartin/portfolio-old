@@ -1,4 +1,4 @@
-const projects = [
+export default [
   {
     name: "Hubsy",
     about: "The coolest co-working space",
@@ -14,5 +14,3 @@ const projects = [
     logo: "/assets/images/..."
   }
 ];
-
-export default projects;

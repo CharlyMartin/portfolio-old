@@ -1,4 +1,4 @@
-const tools = [
+export default [
   {
     name: "Sketch",
     about: "Digital design toolkit",
@@ -36,5 +36,3 @@ const tools = [
     logo: "assets/icons/aws.svg"
   },
 ];
-
-export default tools;

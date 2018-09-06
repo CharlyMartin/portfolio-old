@@ -2,7 +2,16 @@
 //   font-family: "Avenir";
 //   src: url("avenir/avenir-35.ttf") format("opentype"),
 // }
-
 body {
   font-family: "Helvetica";
 }
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+$h1-size: 40px;
+$h2-size: 24px;
+$h3-size: 20px;
+$paragraph-size: 16px;
+$paragraph-small-size: 14px;

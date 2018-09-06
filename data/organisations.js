@@ -1,4 +1,4 @@
-const organisations = [
+export default [
   {
     name: "Le Wagon",
     places: ["France", "China", "Australia", "Canada"],
@@ -10,5 +10,3 @@ const organisations = [
     url: "http://www.epsi.fr/"
   }
 ];
-
-export default organisations;
