@@ -10,17 +10,17 @@ function SideBar(props) {
       </div>
 
       <div className="sidebar-links">
-        <a href="">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/charlymartin/" target="_blank">LinkedIn</a>
         <br/>
         <br/>
-        <a href="">GitHub</a>
+        <a href="https://github.com/CharlyMartin" target="_blank">GitHub</a>
         <br/>
         <br/>
-        <a href="">Medium</a>
+        <a href="https://medium.com/@charly.martin" target="_blank">Medium</a>
       </div>
 
       <div className="sidebar-cta">
-        <a href="" className="btn-orange-transparent">email</a>
+        <a href="mailto:ahoycm@gmail.com" className="btn-orange-transparent">email</a>
       </div>
 
       <div className="sidebar-picture">

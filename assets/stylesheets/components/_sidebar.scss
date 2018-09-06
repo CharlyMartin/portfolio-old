@@ -20,6 +20,12 @@
   padding: $banner-padding;
 }
 
+.sidebar-links a {
+  font-weight: 300;
+  font-size: $paragraph-small-size;
+  color: $gray;
+}
+
 .sidebar-picture img {
   height: 90px;
   border-radius: 50%;

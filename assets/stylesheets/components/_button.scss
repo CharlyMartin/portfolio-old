@@ -1,18 +1,25 @@
 .btn-orange-plain {
-  padding: 14px 24px;
+  padding: 12px 24px;
   background: $orange-brand;
   color: white;
   border-radius: 5px;
   font-weight: 700;
   font-size: $paragraph-size;
-  // box-shadow:
+  transition: all 0.2s ease;
+  &:hover {
+    box-shadow: $box-shadow-hover;
+  }
 }
 
 .btn-orange-transparent {
-  padding: 10px 20px;
+  padding: 8px 20px;
   color: $orange-brand;
   border: 1px solid $orange-brand;
   border-radius: 5px;
   font-weight: 400;
   font-size: $paragraph-small-size;
+  transition: all 0.2s ease;
+  &:hover {
+    box-shadow: $box-shadow-hover;
+  }
 }
