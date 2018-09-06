@@ -5,6 +5,7 @@
 body {
   font-family: "Lato";
   color: $gray-darker;
+  letter-spacing: .01rem;
 }
 
 h1, h2, h3, h4, p {
@@ -13,9 +14,10 @@ h1, h2, h3, h4, p {
 
 a {
   text-decoration: none !important;
+  letter-spacing: .04rem;
 }
 
-$h1-size: 40px;
+$h1-size: 28px;
 $h2-size: 24px;
 $h3-size: 20px;
 $paragraph-size: 16px;

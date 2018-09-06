@@ -1,16 +1,18 @@
-.btn-main {
-  padding: 10px 15px;
+.btn-orange-plain {
+  padding: 14px 24px;
   background: $orange-brand;
   color: white;
   border-radius: 5px;
-  width: fit-content;
+  font-weight: 700;
+  font-size: $paragraph-size;
   // box-shadow:
 }
 
-.btn-secondary {
-  padding: 10px 15px;
-  color: $orange;
+.btn-orange-transparent {
+  padding: 10px 20px;
+  color: $orange-brand;
   border: 1px solid $orange-brand;
   border-radius: 5px;
-  width: fit-content;
+  font-weight: 400;
+  font-size: $paragraph-small-size;
 }
