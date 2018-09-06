@@ -1,0 +1,14 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: $banner-height-padded;
+  padding: $banner-padding;
+}
+
+.sidebar-picture img {
+  height: 90px;
+  border-radius: 50%;
+}

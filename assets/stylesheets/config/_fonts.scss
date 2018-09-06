@@ -1,12 +1,18 @@
 // Importing Lato
+// https://fonts.google.com/specimen/Lato
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 
 body {
   font-family: "Lato";
+  color: $gray-darker;
 }
 
 h1, h2, h3, h4, p {
   margin: 0;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 $h1-size: 40px;
@@ -14,3 +20,5 @@ $h2-size: 24px;
 $h3-size: 20px;
 $paragraph-size: 16px;
 $paragraph-small-size: 14px;
+
+$line-height: 1.5;

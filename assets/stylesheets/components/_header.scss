@@ -1,4 +1,18 @@
-.header-content {
-  max-height: $banner-height;
-  padding: 50px 0;
+.header {
+  min-height: $banner-height-padded;
+  padding: $banner-padding;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-title {
+
+}
+
+.header-paragraph p {
+  font-size: $paragraph-size;
+  color: $gray;
+  font-weight: 300;
+  line-height: $line-height;
 }

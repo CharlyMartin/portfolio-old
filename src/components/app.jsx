@@ -10,25 +10,25 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-
         <div className="background-light" />
 
-        <div className="container">
-          <div className="container-layout">
-            <div className="sidebar-container">
+        <div className="page-container">
+          <div className="page-layout">
+
+            <div className="left-column">
               <SideBar />
-              <span>hello</span>
             </div>
 
-            <div className="content-container">
+
+            <div className="right-column">
               <Header content={content}/>
               <List />
               <List />
               <List />
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
     );
   }

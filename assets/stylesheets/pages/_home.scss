@@ -17,19 +17,3 @@ body {
   z-index: -1;
   box-shadow: $box-shadow;
 }
-
-
-.sidebar-container {
-  flex: 0 0 30%;
-}
-
-.sidebar {
-  position: sticky;
-  top: 0;
-}
-
-
-.content-container {
-  flex: 0 0 70%;
-  // height:
-}

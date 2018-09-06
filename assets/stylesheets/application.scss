@@ -1,7 +1,7 @@
 // Config
 @import 'config/colours';
 @import 'config/fonts';
-@import 'config/size';
+@import 'config/dimensions';
 
 // Layout
 @import 'layouts/container';
@@ -9,6 +9,7 @@
 // Components
 @import 'components/button';
 @import 'components/header';
+@import 'components/sidebar';
 
 // Pages
 @import 'pages/home';
