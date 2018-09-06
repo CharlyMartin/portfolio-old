@@ -1,9 +1,8 @@
-// @font-face {
-//   font-family: "Avenir";
-//   src: url("avenir/avenir-35.ttf") format("opentype"),
-// }
+// Importing Lato
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
 body {
-  font-family: "Helvetica";
+  font-family: "Lato";
 }
 
 h1, h2, h3, h4, p {
