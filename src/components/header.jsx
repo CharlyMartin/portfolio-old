@@ -16,8 +16,8 @@ function Header(props) {
       </div>
 
       <div className="header-button">
-        <a href="mailto:ahoycm@gmail.com" className="btn-orange-plain">{props.content.header.cta}</a>
         <br/>
+        <a href="mailto:ahoycm@gmail.com" className="btn-orange-plain">{props.content.header.cta}</a>
         <br/>
       </div>
     </div>

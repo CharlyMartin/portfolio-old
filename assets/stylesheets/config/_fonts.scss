@@ -1,9 +1,14 @@
 // Importing Lato
 // https://fonts.google.com/specimen/Lato
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+// @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+// https://fonts.google.com/specimen/Nunito
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800');
+
+
 
 body {
-  font-family: "Lato";
+  font-family: "Nunito";
   color: $gray-darker;
   letter-spacing: .01rem;
 }
@@ -14,7 +19,7 @@ h1, h2, h3, h4, p {
 
 a {
   text-decoration: none !important;
-  letter-spacing: .02rem;
+  letter-spacing: .01rem;
 }
 
 $h1-size: 28px;
@@ -23,4 +28,4 @@ $h3-size: 20px;
 $paragraph-size: 16px;
 $paragraph-small-size: 14px;
 
-$line-height: 1.6;
+$line-height: 1.7;

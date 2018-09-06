@@ -19,6 +19,7 @@ function SideBar(props) {
         <a href="https://medium.com/@charly.martin" target="_blank">Medium</a>
       </div>
 
+      {/* Make button turn orange once sidebar exceeds wrapper */}
       <div className="sidebar-cta">
         <a href="mailto:ahoycm@gmail.com" className="btn-orange-transparent">email</a>
       </div>
