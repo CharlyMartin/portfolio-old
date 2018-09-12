@@ -4,7 +4,7 @@ import SideBar from './sidebar';
 import Header from './header';
 import List from './list';
 
-import content from '../../data/content.js'
+import content from '../../data/content';
 
 class App extends Component {
   render() {
@@ -21,7 +21,7 @@ class App extends Component {
 
 
             <div className="right-column">
-              <Header content={content}/>
+              <Header content={content} />
               <List />
               <List />
               <List />

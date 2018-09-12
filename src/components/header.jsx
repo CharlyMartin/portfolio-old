@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 function Header(props) {
-
   return (
     <div className="header">
       <div className="header-title">
@@ -10,15 +9,15 @@ function Header(props) {
 
       <div className="header-paragraph">
         <p>{props.content.header.me}</p>
-        <br/>
-        <br/>
+        <br />
+        <br />
         <p>{props.content.header.you}</p>
       </div>
 
       <div className="header-button">
-        <br/>
+        <br />
         <a href="mailto:ahoycm@gmail.com" className="btn-orange-plain">{props.content.header.cta}</a>
-        <br/>
+        <br />
       </div>
     </div>
   );
