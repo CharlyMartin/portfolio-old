@@ -13,10 +13,17 @@
 
 .right-column {
   flex: 0 0 70%;
-  // height:
 }
 
+.section {
+  margin-top: 60px;
 
+  .section-title {
+    font-size: $paragraph-small-size;
+    font-weight: 100;
+    color: $gray;
+  }
+}
 
 // Media queries
 // @media (max-height: 950px) {

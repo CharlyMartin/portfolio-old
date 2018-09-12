@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 
 import SideBar from './sidebar';
 import Header from './header';
-import List from './list';
+import ProjectList from './project_list';
 
 import content from '../../data/content';
+import projects from '../../data/projects';
 
 class App extends Component {
   render() {
@@ -21,16 +22,24 @@ class App extends Component {
 
 
             <div className="right-column">
-              <Header content={content} />
-              <List />
-              <List />
-              <List />
-              <List />
-              <List />
-              <List />
-              <List />
-              <List />
-              <List />
+              <Header data={content} />
+
+              <div className="section">
+                <h3 className="section-title">PREVIOUS WORK <span role="img" aria-label="sparkles">✨</span></h3>
+                <br />
+                <ProjectList data={projects} />
+              </div>
+
+              <div className="section">
+                <h3 className="section-title">TEACHING GIGS <span role="img" aria-label="teacher">👨‍🏫</span></h3>
+                <br />
+              </div>
+
+              <div className="section">
+                <h3 className="section-title">STACK & TOOLS <span role="img" aria-label="laptop">💻</span></h3>
+                <br />
+              </div>
+
             </div>
           </div>
 
