@@ -3,9 +3,12 @@ import React, { Component } from 'react';
 import SideBar from './sidebar';
 import Header from './header';
 import ProjectList from './project_list';
+import ItemList from './item_list';
 
 import content from '../../data/content';
 import projects from '../../data/projects';
+import companies from '../../data/companies';
+import tools from '../../data/tools';
 
 class App extends Component {
   render() {
@@ -24,27 +27,28 @@ class App extends Component {
             <div className="right-column">
               <Header data={content} />
 
-              <div className="section">
+              <div className="section" id="projects">
                 <h3 className="section-title">PREVIOUS WORK <span role="img" aria-label="sparkles">✨</span></h3>
                 <br />
                 <ProjectList data={projects} />
               </div>
 
-              <div className="section">
+              <div className="section" id="companies">
                 <h3 className="section-title">TEACHING GIGS <span role="img" aria-label="teacher">👨‍🏫</span></h3>
                 <br />
+                <ItemList data={companies}/>
               </div>
 
-              <div className="section">
+              <div className="section" id="tools">
                 <h3 className="section-title">STACK & TOOLS <span role="img" aria-label="laptop">💻</span></h3>
                 <br />
+                <ItemList data={tools}/>
               </div>
 
             </div>
           </div>
 
         </div>
-
       </div>
     );
   }
