@@ -1,5 +1,7 @@
 import React from 'react';
 
+import imageUrl from '../helpers/image_url';
+
 function Project(props) {
   return (
     <div className="project-wrapper">
@@ -7,7 +9,7 @@ function Project(props) {
 
         <div className="project-container">
           <div className="project-img">
-            <img src={props.data.logo} alt={props.data.logo} />
+            <img src={imageUrl(props.data.logo)} alt={props.data.logo} />
           </div>
 
           <div className="project-info">

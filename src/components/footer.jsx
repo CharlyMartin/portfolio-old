@@ -4,9 +4,9 @@ function Footer(props) {
   const renderList = () => {
     return props.data.map((obj) => {
       return (
-        <div className="footer-item">
+        <div className="footer-item" key={obj.feature}>
           <div className="footer-content">
-            <h3 className="footer-item-feature" key={obj.feature} id={obj.colour}>{obj.feature}</h3>
+            <h3 className="footer-item-feature" id={obj.colour}>{obj.feature}</h3>
             <p className="footer-item-benefit">{obj.benefit}</p>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import imageUrl from '../helpers/image_url';
 
 function SideBar(props) {
   return (
@@ -25,7 +26,7 @@ function SideBar(props) {
       </div>
 
       <div className="sidebar-picture">
-        <img src="../../assets/images/me.jpg" alt="" />
+        <img src={imageUrl("me.jpg")} alt="" />
       </div>
 
     </div>

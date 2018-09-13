@@ -11,6 +11,8 @@ import projects from '../../data/projects';
 import companies from '../../data/companies';
 import tools from '../../data/tools';
 
+import imageUrl from '../helpers/image_url';
+
 class App extends Component {
   render() {
     return (

@@ -1,11 +1,13 @@
 import React from 'react';
 
+import imageUrl from '../helpers/image_url';
+
 function Item(props) {
   return (
     <a href={props.data.url} target="_blank" rel="noopener noreferrer">
       <div className="item">
         <div className="item-logo">
-          <img src={props.data.logo} alt={props.data.name}/>
+          <img src={imageUrl(props.data.logo)} alt={props.data.name}/>
         </div>
 
         <div className="item-info">

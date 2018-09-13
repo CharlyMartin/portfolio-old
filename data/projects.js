@@ -4,7 +4,7 @@ export default [
     about: "The coolest co-working space",
     dates: "2016 - now",
     url: "https://www.hubsy.fr/",
-    logo: "/assets/images/projects/hubsy.png"
+    logo: "projects/hubsy.png"
   },
   // {
   //   name: "Oh Happy Work",
