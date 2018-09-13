@@ -6,8 +6,20 @@ export default {
     cta: "drop me a line"
   },
   footer: [
-    {feature: "SCOPE", benefit: "Defining your project's user stories and roadmap"},
-    {feature: "DESIGN", benefit: "Thinking the overall user experience through"},
-    {feature: "BUILD", benefit: "Coding, testing, deploying and maintaining your app"}
+    {
+      feature: "SCOPE",
+      benefit: "Defining your project's user stories and roadmap",
+      colour: "orange"
+    },
+    {
+      feature: "DESIGN",
+      benefit: "Thinking the overall user experience through",
+      colour: "green"
+    },
+    {
+      feature: "BUILD",
+      benefit: "Coding, testing, deploying and maintaining your app",
+      colour: "purple"
+    }
   ]
 };

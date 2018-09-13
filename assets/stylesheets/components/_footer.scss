@@ -1,5 +1,49 @@
 .footer {
   background: $gray-lighter;
   margin-top: 10vh;
-  padding: 5vh 0;
+  padding: 8vh 0;
+}
+
+.footer-title {
+  font-size: $h3-size;
+  font-weight: 600;
+  padding-bottom: 32px;
+}
+
+.footer-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -16px;
+}
+
+.footer-content {
+  padding: 16px;
+}
+
+.footer-item {
+  flex: 0 0 33%;
+
+  .footer-item-feature {
+    font-size: $h4-size;
+    font-weight: 300;
+    padding-bottom: 8px;
+  }
+
+  .footer-item-benefit {
+    font-size: $paragraph-small-size;
+    font-weight: 400;
+    color: $gray;
+  }
+}
+
+#orange {
+  color: $orange;
+}
+
+#green {
+  color: $green;
+}
+
+#purple {
+  color: $purple;
 }

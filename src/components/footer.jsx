@@ -4,9 +4,11 @@ function Footer(props) {
   const renderList = () => {
     return props.data.map((obj) => {
       return (
-        <div className="footer-items">
-          <h3 className="footer-item-feature" key={obj.feature}>{obj.feature}</h3>
-          <p className="footer-item-benefit">{obj.benefit}</p>
+        <div className="footer-item">
+          <div className="footer-content">
+            <h3 className="footer-item-feature" key={obj.feature} id={obj.colour}>{obj.feature}</h3>
+            <p className="footer-item-benefit">{obj.benefit}</p>
+          </div>
         </div>
       );
     })
@@ -15,8 +17,12 @@ function Footer(props) {
   return (
     <div className="footer">
       <div className="page-container">
-        <h2>How I can help</h2>
-        {renderList()}
+        <h2 className="footer-title">How I can help</h2>
+
+        <div className="footer-items">
+          {renderList()}
+        </div>
+
       </div>
     </div>
   );
