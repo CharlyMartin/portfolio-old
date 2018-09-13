@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-        <div className="background-light" />
+        <div className="background-light"></div>
 
         <div className="page-container">
           <div className="page-layout">
