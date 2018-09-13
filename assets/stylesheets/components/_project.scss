@@ -16,7 +16,7 @@
   height: 150px;
   background: $gray-lighter;
   box-shadow: $box-shadow-light;
-
+  transition: all 200ms ease;
   &:hover .project-img {
     visibility: visible;
     opacity: 0.97;
@@ -25,7 +25,7 @@
 
 .project-info {
   position: absolute;
-  z-index: 1;
+  // z-index: 1;
   top: 0;
   bottom: 0;
   left: 0;
@@ -41,7 +41,7 @@
   background: $gray-lighter;
   border-radius: 2px;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   top: 0;
   bottom: 0;
   left: 0;
