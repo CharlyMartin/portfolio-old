@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  transform: translateX(-54px);
+  transition: all 200ms ease;
+  &:hover {
+    transform: translateX(0);
+  }
+
+  &:hover img {
+    visibility: visible;
+  }
+}
+
+.item-logo img {
+  width: 30px;
+  margin-right: 24px;
+  visibility: hidden;
+  // transform: translateX(-20px);
+  // overflow: hidden;
+}
+
+.item-name {
+  color: $gray-darker;
+  font-size: $h4-size;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.item-description {
+  color: $gray;
+  font-size: $paragraph-small-size;
+  font-weight: 300;
+}

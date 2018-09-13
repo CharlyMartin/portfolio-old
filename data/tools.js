@@ -1,38 +1,38 @@
 export default [
   {
     name: "Sketch",
-    about: "Digital design toolkit",
+    description: "Digital design toolkit",
     url: "https://www.sketchapp.com/",
-    logo: "assets/images/tools/sketch.svg"
+    logo: "assets/images/tools/sketch.png"
   },
   {
     name: "React",
-    about: "JavaScript library for building user interfaces",
+    description: "JavaScript library for building user interfaces",
     url: "https://reactjs.org/",
-    logo: "assets/images/tools/react.svg"
+    logo: "assets/images/tools/react.png"
   },
-  {
-    name: "Redux",
-    about: "Predictable state container for JavaScript apps",
-    url: "https://redux.js.org/",
-    logo: "assets/images/tools/redux.svg"
-  },
+  // {
+  //   name: "Redux",
+  //   description: "Predictable state container for JavaScript apps",
+  //   url: "https://redux.js.org/",
+  //   logo: "assets/images/tools/redux.png"
+  // },
   {
     name: "Ruby on Rails",
-    about: "Server-side web application framework",
+    description: "Server-side web application framework",
     url: "https://rubyonrails.org/",
-    logo: "assets/images/tools/rails.svg"
+    logo: "assets/images/tools/ruby.png"
   },
   {
     name: "GitHub",
-    about: "World's leading software development platform",
+    description: "World's leading software development platform",
     url: "https://github.com/",
-    logo: "assets/images/tools/github.svg"
+    logo: "assets/images/tools/github.png"
   },
   {
     name: "AWS",
-    about: "World's largest cloud computing platform",
+    description: "World's largest cloud computing platform",
     url: "https://aws.amazon.com/",
-    logo: "assets/images/tools/aws.svg"
+    logo: "assets/images/tools/aws.png"
   },
 ];
