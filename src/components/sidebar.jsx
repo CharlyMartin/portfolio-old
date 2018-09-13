@@ -1,7 +1,7 @@
 import React from 'react';
 import imageUrl from '../helpers/image_url';
 
-function SideBar(props) {
+function SideBar() {
   return (
     <div className="sidebar">
 

@@ -11,7 +11,7 @@ function Footer(props) {
           </div>
         </div>
       );
-    })
+    });
   };
 
   return (

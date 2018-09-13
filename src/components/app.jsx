@@ -11,8 +11,6 @@ import projects from '../../data/projects';
 import companies from '../../data/companies';
 import tools from '../../data/tools';
 
-import imageUrl from '../helpers/image_url';
-
 class App extends Component {
   render() {
     return (
@@ -39,20 +37,20 @@ class App extends Component {
               <div className="section" id="companies">
                 <h3 className="section-title">TEACHING GIGS <span role="img" aria-label="teacher">👨‍🏫</span></h3>
                 <br />
-                <ItemList data={companies}/>
+                <ItemList data={companies} />
               </div>
 
               <div className="section" id="tools">
                 <h3 className="section-title">STACK & TOOLS <span role="img" aria-label="laptop">💻</span></h3>
                 <br />
-                <ItemList data={tools}/>
+                <ItemList data={tools} />
               </div>
 
             </div>
           </div>
 
         </div>
-        <Footer data={content.footer}/>
+        <Footer data={content.footer} />
       </div>
     );
   }
