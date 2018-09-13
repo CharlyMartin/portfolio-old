@@ -4,6 +4,7 @@ import SideBar from './sidebar';
 import Header from './header';
 import ProjectList from './project_list';
 import ItemList from './item_list';
+import Footer from './footer';
 
 import content from '../../data/content';
 import projects from '../../data/projects';
@@ -25,7 +26,7 @@ class App extends Component {
 
 
             <div className="right-column">
-              <Header data={content} />
+              <Header data={content.header} />
 
               <div className="section" id="projects">
                 <h3 className="section-title">PREVIOUS WORK <span role="img" aria-label="sparkles">✨</span></h3>
@@ -49,6 +50,7 @@ class App extends Component {
           </div>
 
         </div>
+        <Footer data={content}/>
       </div>
     );
   }

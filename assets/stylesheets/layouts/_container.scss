@@ -22,6 +22,10 @@
     font-size: $paragraph-small-size;
     font-weight: 100;
     color: $gray;
+
+    span {
+      margin-left: 4px;
+    }
   }
 }
 

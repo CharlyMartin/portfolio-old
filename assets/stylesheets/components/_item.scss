@@ -1,9 +1,9 @@
 .item {
   display: flex;
   align-items: center;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
   transform: translateX(-54px);
-  transition: all 200ms ease;
+  transition: all 250ms ease;
   &:hover {
     transform: translateX(0);
   }

@@ -4,19 +4,19 @@ function Header(props) {
   return (
     <div className="header">
       <div className="header-title">
-        <h1>{props.data.header.hello}</h1>
+        <h1>{props.data.hello}</h1>
       </div>
 
       <div className="header-paragraph">
-        <p>{props.data.header.me}</p>
+        <p>{props.data.me}</p>
         <br />
         <br />
-        <p>{props.data.header.you}</p>
+        <p>{props.data.you}</p>
       </div>
 
       <div className="header-button">
         <br />
-        <a href="mailto:ahoycm@gmail.com" className="btn-orange-plain">{props.data.header.cta}</a>
+        <a href="mailto:ahoycm@gmail.com" className="btn-orange-plain">{props.data.cta}</a>
         <br />
       </div>
     </div>
