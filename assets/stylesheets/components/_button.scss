@@ -5,7 +5,7 @@
   border-radius: 5px;
   font-weight: 700;
   font-size: $paragraph-size;
-  transition: all 0.2s ease;
+  transition: all 100ms ease;
   &:hover {
     box-shadow: $box-shadow-dark;
   }
@@ -18,8 +18,15 @@
   border-radius: 5px;
   font-weight: 400;
   font-size: $paragraph-small-size;
-  transition: all 0.2s ease;
+  transition: all 100ms ease;
+  opacity: 0.8;
   &:hover {
     box-shadow: $box-shadow-dark;
   }
+}
+
+.button-active {
+  color: white;
+  background: $orange-brand;
+  opacity: 1;
 }

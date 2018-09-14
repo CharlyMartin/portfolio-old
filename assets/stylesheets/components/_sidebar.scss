@@ -29,15 +29,22 @@
   }
 }
 
-.sidebar-links a {
-  font-weight: 300;
-  font-size: $paragraph-small-size;
-  color: $gray;
-  transition: all 100ms ease;
-  &:hover {
-    padding-left: 4px;
+.sidebar-link {
+  cursor: pointer;
+  margin: 16px 0;
+
+  a {
+    font-weight: 300;
+    font-size: $paragraph-small-size;
+    color: $gray;
+    transition: all 100ms ease;
+    &:hover {
+      padding-left: 4px;
+    }
   }
 }
+
+
 
 .sidebar-picture img {
   height: 90px;

@@ -16,7 +16,7 @@ function Header(props) {
 
       <div className="header-button">
         <br />
-        <a href="mailto:ahoycm@gmail.com" className="btn-orange-plain" data-balloon="ahoycm@gmail.com" data-balloon-pos="up">{props.data.cta}</a>
+        <a href={props.data.link} className="btn-orange-plain" data-balloon={props.data.email} data-balloon-pos="up">{props.data.cta}</a>
         <br />
       </div>
     </div>
