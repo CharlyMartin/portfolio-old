@@ -8,15 +8,15 @@ export default {
       {name: "Medium", url: "https://medium.com/@charly.martin"}
     ],
     cta: "Email",
-    link: "mailto:ahoycm@gmail.com",
+    link: "mailto:ahoycm@gmail.com?subject=I fancy a great website",
     picture: "me.jpg"
   },
   header: {
-    hello: "hello you",
-    me: "Thanks for visiting my page! I am Charly, a freelance front-end engineer and designer from France. I design and code web interfaces for others and myself, I also work with Le Wagon as a Lead Teacher worldwide. And I love disco, but that's for another day 🙂",
+    hello: "hello you, fancy a great website?",
+    me: "I am Charly, a freelance front-end engineer and designer from France. I design and code web interfaces for others and myself, I also work with Le Wagon as a Lead Teacher worldwide. And I love disco, but that's for another day 🙂",
     you: "Enough about me, I would love to hear about you and your projects. Would you mind sharing a few lines about yourself? I am always happy to discuss new collaborations, or point you in the right direction if I can't handle your request.",
     cta: "drop me an email",
-    link: "mailto:ahoycm@gmail.com",
+    link: "mailto:ahoycm@gmail.com?subject=I fancy a great website",
     email: "ahoycm@gmail.com"
   },
   footer: [

@@ -10,7 +10,6 @@ function Header(props) {
       <div className="header-paragraph">
         <p>{props.data.me}</p>
         <br />
-        <br />
         <p>{props.data.you}</p>
       </div>
 

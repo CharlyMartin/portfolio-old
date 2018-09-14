@@ -6,7 +6,7 @@ function SideBar(props) {
     return props.data.links.map((obj) => {
       return (
         <div className="sidebar-link" key={obj.name}>
-          <a href={obj.link} target="_blank" rel="noopener noreferrer">{obj.name}</a>
+          <a href={obj.url} target="_blank" rel="noopener noreferrer">{obj.name}</a>
         </div>
       );
     });
