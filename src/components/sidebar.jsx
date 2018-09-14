@@ -29,7 +29,7 @@ function SideBar(props) {
       </div>
 
       <div className="sidebar-picture">
-        <img src={imageUrl(props.data.picture)} alt="" />
+        <img src={imageUrl(props.data.picture)} alt={props.data.brand} />
       </div>
 
     </div>
