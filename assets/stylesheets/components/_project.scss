@@ -74,3 +74,12 @@
   font-size: $paragraph-small-size;
   font-weight: 100;
 }
+
+
+// Media queries
+@media (max-width: $tablet) {
+  .project-wrapper {
+    flex: 0 0 75%;
+    // background: red;
+  }
+}

@@ -29,10 +29,18 @@
   }
 }
 
+
 // Media queries
-// @media (max-height: 950px) {
-//   .container {
-//     width: 700px;
-//     background: blue;
-//   }
-// }
+@media (max-width: $tablet) {
+  .page-container {
+    width: 550px;
+  }
+
+  .left-column {
+    flex: 0 0 40%;
+  }
+
+  .right-column {
+    flex: 0 0 60%;
+  }
+}

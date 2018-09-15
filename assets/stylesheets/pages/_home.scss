@@ -6,14 +6,3 @@ body {
   width: 100%;
   position: relative;
 }
-
-.background-light {
-  height: $banner-height;
-  background: $orange-brand-lighter;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  box-shadow: $box-shadow;
-}

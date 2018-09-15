@@ -1,9 +1,13 @@
 // Media queries
-$desktop: 950px;
-$tablet: 750px;
-$mobile: 550px;
+$desktop: 1000px;
+$tablet: 800px;
+$mobile: 600px;
 
 // Banner dimensions
 $banner-padding: 60px 0;
 $banner-height: 85vh;
 $banner-height-padded: calc(85vh - 120px);
+
+$banner-padding-mobile: 50px 0;
+$banner-height-mobile: 95vh;
+$banner-height-padded-mobile: calc(95vh - 100px);

@@ -23,12 +23,6 @@
   z-index: 1;
 }
 
-@supports not (position: sticky) {
-  .sidebar {
-    position: fixed;
-  }
-}
-
 .sidebar-link {
   cursor: pointer;
   margin: 16px 0;
@@ -48,4 +42,21 @@
   height: 90px;
   border-radius: 50%;
   box-shadow: $box-shadow;
+}
+
+
+// Support queries
+@supports not (position: sticky) {
+  .sidebar {
+    position: fixed;
+  }
+}
+
+
+// Media queries
+@media (max-width: $tablet) {
+  .sidebar {
+    min-height: $banner-height-padded-mobile;
+    padding: $banner-padding-mobile;
+  }
 }
