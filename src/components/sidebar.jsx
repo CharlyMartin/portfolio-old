@@ -10,7 +10,7 @@ function SideBar(props) {
         </div>
       );
     });
-  }
+  };
 
   return (
     <div className="sidebar">

@@ -19,7 +19,7 @@ function togglingItems() {
       button.classList.add("button-active");
     } else {
       button.classList.remove("button-active");
-    };
+    }
   }
 
   function togglePicture() {
@@ -27,7 +27,7 @@ function togglingItems() {
       picture.style.visibility = "hidden";
     } else {
       picture.style.visibility = "visible";
-    };
+    }
   }
 
   window.addEventListener('scroll', toggleButton);

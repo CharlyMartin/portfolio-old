@@ -3,9 +3,9 @@ export default {
     brand: "Charly",
     caption: "code + design",
     links: [
-      {name: "LinkedIn", url: "https://www.linkedin.com/in/charlymartin/"},
-      {name: "GitHub", url: "https://github.com/CharlyMartin"},
-      {name: "Medium", url: "https://medium.com/@charly.martin"}
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/charlymartin/" },
+      { name: "GitHub", url: "https://github.com/CharlyMartin" },
+      { name: "Medium", url: "https://medium.com/@charly.martin" }
     ],
     cta: "Email",
     link: "mailto:ahoycm@gmail.com?subject=I fancy a great website",
