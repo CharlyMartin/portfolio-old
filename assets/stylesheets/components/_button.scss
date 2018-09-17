@@ -30,3 +30,15 @@
   background: $orange-brand;
   opacity: 1;
 }
+
+@media (max-width: $mobile) {
+  .btn-orange-plain {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    border-radius: 0px;
+    text-align: center;
+  }
+}

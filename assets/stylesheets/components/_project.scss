@@ -80,6 +80,11 @@
 @media (max-width: $tablet) {
   .project-wrapper {
     flex: 0 0 75%;
-    // background: red;
+  }
+}
+
+@media (max-width: $mobile) {
+  .project-wrapper {
+    flex: 0 0 100%;
   }
 }

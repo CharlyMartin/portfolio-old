@@ -44,3 +44,18 @@
     flex: 0 0 60%;
   }
 }
+
+@media (max-width: $mobile) {
+  .page-container {
+    width: 400px;
+  }
+
+  .left-column {
+    flex: 0 0 0%;
+    display: none;
+  }
+
+  .right-column {
+    flex: 0 0 100%;
+  }
+}

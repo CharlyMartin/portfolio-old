@@ -48,3 +48,9 @@
 #purple {
   color: $purple;
 }
+
+@media (max-width: $mobile) {
+  .footer-item {
+    flex: 0 0 100%;
+  }
+}
