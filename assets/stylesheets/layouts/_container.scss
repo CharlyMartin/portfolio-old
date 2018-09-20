@@ -1,5 +1,5 @@
 .page-container {
-  width: 750px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -31,9 +31,9 @@
 
 
 // Media queries
-@media (max-width: $tablet) {
+@media screen and (max-width: $tablet) {
   .page-container {
-    width: 550px;
+    width: 750px;
   }
 
   .left-column {
@@ -45,9 +45,9 @@
   }
 }
 
-@media (max-width: $mobile) {
+@media screen and (max-width: $mobile) {
   .page-container {
-    width: 400px;
+    width: 700px;
   }
 
   .left-column {
