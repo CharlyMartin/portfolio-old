@@ -87,4 +87,25 @@
   .project-wrapper {
     flex: 0 0 100%;
   }
+
+  .project-container {
+    height: 250px;
+  }
+
+  .project-info {
+    padding: 30px;
+  }
+
+  .project-name {
+    font-size: $h4-size-mobile;
+    margin-bottom: 12px;
+  }
+
+  .project-description {
+    font-size: $paragraph-small-size-mobile;
+  }
+
+  .project-date {
+    font-size: $paragraph-small-size-mobile;
+  }
 }

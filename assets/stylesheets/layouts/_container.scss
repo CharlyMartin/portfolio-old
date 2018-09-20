@@ -50,34 +50,30 @@
   .right-column {
     flex: 0 0 100%;
   }
+
+  .section {
+  margin-top: 8vh;
+
+  .section-title {
+    font-size: $paragraph-small-size-mobile;
+    font-weight: 100;
+    color: $gray;
+
+    span {
+      margin-left: 8px;
+    }
+  }
+}
 }
 
 @media screen and (max-width: $small) {
   .page-container {
     width: 550px;
   }
-
-  .left-column {
-    flex: 0 0 0%;
-    display: none;
-  }
-
-  .right-column {
-    flex: 0 0 100%;
-  }
 }
 
 @media screen and (max-width: $extra-small) {
   .page-container {
     width: 500px;
-  }
-
-  .left-column {
-    flex: 0 0 0%;
-    display: none;
-  }
-
-  .right-column {
-    flex: 0 0 100%;
   }
 }

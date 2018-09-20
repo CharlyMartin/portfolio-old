@@ -33,3 +33,19 @@
   font-size: $paragraph-small-size;
   font-weight: 300;
 }
+
+@media screen and (max-width: $medium) {
+  .item {
+    padding-bottom: 48px;
+  }
+
+  .item-name {
+    font-size: $h4-size-mobile;
+    margin-bottom: 12px;
+  }
+
+  .item-description {
+    font-size: $paragraph-small-size-mobile;
+  }
+}
+
