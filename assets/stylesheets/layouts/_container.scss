@@ -31,23 +31,45 @@
 
 
 // Media queries
-@media screen and (max-width: $tablet) {
+@media screen and (max-width: $large) {
   .page-container {
     width: 750px;
   }
+}
+
+@media screen and (max-width: $medium) {
+  .page-container {
+    width: 700px;
+  }
 
   .left-column {
-    flex: 0 0 40%;
+    flex: 0 0 0%;
+    display: none;
   }
 
   .right-column {
-    flex: 0 0 60%;
+    flex: 0 0 100%;
   }
 }
 
-@media screen and (max-width: $mobile) {
+@media screen and (max-width: $small) {
   .page-container {
-    width: 700px;
+    width: 550px;
+  }
+
+  .left-column {
+    flex: 0 0 0%;
+    display: none;
+  }
+
+  .right-column {
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: $extra-small) {
+  .page-container {
+    width: 500px;
   }
 
   .left-column {

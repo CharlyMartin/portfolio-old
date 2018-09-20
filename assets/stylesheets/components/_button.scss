@@ -31,7 +31,7 @@
   opacity: 1;
 }
 
-@media (max-width: $mobile) {
+@media screen and (max-width: $medium) {
   .btn-orange-plain {
     position: fixed;
     left: 0;
@@ -40,5 +40,6 @@
     z-index: 1;
     border-radius: 0px;
     text-align: center;
+    font-size: 36px;
   }
 }

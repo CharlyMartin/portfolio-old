@@ -53,7 +53,7 @@
 
 
 // Media queries
-@media (max-width: $tablet) {
+@media screen and (max-width: $medium) {
   .sidebar {
     min-height: $banner-height-padded-mobile;
     padding: $banner-padding-mobile;

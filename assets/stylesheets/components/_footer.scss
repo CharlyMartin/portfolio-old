@@ -49,7 +49,7 @@
   color: $purple;
 }
 
-@media (max-width: $mobile) {
+@media screen and (max-width: $medium) {
   .footer-item {
     flex: 0 0 100%;
   }
