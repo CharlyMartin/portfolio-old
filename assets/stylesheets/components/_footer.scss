@@ -17,7 +17,7 @@
   margin: -16px;
 }
 
-.footer-content {
+.footer-item-content {
   padding: 16px;
 }
 
@@ -50,7 +50,33 @@
 }
 
 @media screen and (max-width: $medium) {
+  .footer-items {
+    margin: -32px;
+  }
+
   .footer-item {
     flex: 0 0 100%;
+
+    .footer-item-content {
+      padding: 32px;
+    }
+
+    .footer-item-feature {
+      font-size: $h4-size-mobile;
+      // font-weight: 300;
+      padding-bottom: 16px;
+    }
+
+    .footer-item-benefit {
+      font-size: $paragraph-small-size-mobile;
+      font-weight: 300;
+      // color: $gray;
+    }
+  }
+
+  .footer-title {
+    font-size: $h4-size-mobile;
+    font-weight: 500;
+    padding-bottom: 64px;
   }
 }

@@ -5,7 +5,7 @@ function Footer(props) {
     return props.data.map((obj) => {
       return (
         <div className="footer-item" key={obj.feature}>
-          <div className="footer-content">
+          <div className="footer-item-content">
             <h3 className="footer-item-feature" id={obj.colour}>{obj.feature}</h3>
             <p className="footer-item-benefit">{obj.benefit}</p>
           </div>
