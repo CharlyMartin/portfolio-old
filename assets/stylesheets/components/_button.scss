@@ -44,4 +44,8 @@
     font-size: $h3-size-mobile;
     font-weight: 600;
   }
+
+  [data-balloon]:after {
+    font-size: $h3-size-mobile !important;
+  }
 }
