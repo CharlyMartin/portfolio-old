@@ -1,19 +1,14 @@
-function togglingItems() {
+function toggleButton() {
   const brandTop = document.querySelector("#brand").getBoundingClientRect().top;
   const bannerHeight = document.querySelector(".background-light").offsetHeight;
 
   const button = document.querySelector(".btn-orange-transparent");
-  const picture = document.querySelector(".sidebar-picture img");
 
   function isScolled() {
     return (brandTop + window.scrollY) > bannerHeight;
   }
 
-  function isSafari() {
-    return window.navigator.vendor.includes("Apple");
-  }
-
-  function toggleButton() {
+  function toggleActive() {
     // console.log(brandTop, window.scrollY, bannerHeight);
     if (isScolled()) {
       button.classList.add("button-active");
@@ -22,16 +17,7 @@ function togglingItems() {
     }
   }
 
-  function togglePicture() {
-    if (isScolled() && isSafari()) {
-      picture.style.visibility = "hidden";
-    } else {
-      picture.style.visibility = "visible";
-    }
-  }
-
-  window.addEventListener('scroll', toggleButton);
-  window.addEventListener('scroll', togglePicture);
+  window.addEventListener('scroll', toggleActive);
 }
 
-export default togglingItems;
+export { toggleButton };

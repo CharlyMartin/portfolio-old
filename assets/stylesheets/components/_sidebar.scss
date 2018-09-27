@@ -20,6 +20,7 @@
   min-height: $banner-height-padded;
   padding: $banner-padding;
   z-index: 1;
+  margin-bottom: $margin-bottom;
 }
 
 .sidebar-link {
@@ -57,5 +58,6 @@
   .sidebar {
     min-height: $banner-height-padded-mobile;
     padding: $banner-padding-mobile;
+    margin-bottom: $margin-bottom-mobile;
   }
 }

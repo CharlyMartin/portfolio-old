@@ -14,6 +14,9 @@ function SideBar(props) {
 
   return (
     <div className="sidebar">
+      <div className="sidebar-picture">
+        <img src={imageUrl(props.data.picture)} alt={props.data.brand} />
+      </div>
 
       <div className="sidebar-header">
         <h2 id="brand">{props.data.brand}</h2>
@@ -27,11 +30,6 @@ function SideBar(props) {
       <div className="sidebar-cta">
         <a href={props.data.link} className="btn-orange-transparent">{props.data.cta}</a>
       </div>
-
-      <div className="sidebar-picture">
-        <img src={imageUrl(props.data.picture)} alt={props.data.brand} />
-      </div>
-
     </div>
   );
 }
