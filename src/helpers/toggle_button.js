@@ -1,5 +1,5 @@
 function toggleButton() {
-  const brandTop = document.querySelector("#brand").getBoundingClientRect().top;
+  const brandTop = document.querySelector(".sidebar").getBoundingClientRect().top;
   const bannerHeight = document.querySelector(".background-light").offsetHeight;
 
   const button = document.querySelector(".btn-orange-transparent");
