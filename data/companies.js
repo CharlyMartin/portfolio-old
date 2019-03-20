@@ -1,7 +1,7 @@
 export default [
   {
     name: "Le Wagon",
-    description: "France, China and Australia",
+    description: "France, China, Australia and Canada",
     url: "https://www.lewagon.com/",
     logo: "companies/lewagon.png"
   },
