@@ -3,6 +3,7 @@ import React from 'react';
 import imageUrl from '../helpers/image_url';
 
 function Project(props) {
+  console.log(props);
   return (
     <div className="project-wrapper">
       <a href={props.data.url} className="project-url" target="_blank" rel="noopener noreferrer">

@@ -6,13 +6,13 @@ export default [
     url: "https://www.hubsy.fr/",
     logo: "projects/hubsy.png"
   },
-  // {
-  //   name: "Oh Happy Work",
-  //   about: "Hapiness at work",
-  //   dates: "2018",
-  //   url: "https://www.ohhappywork.fun/",
-  //   logo: "/assets/images/hubsy.png"
-  // },
+  {
+    name: "Mayoneese",
+    about: "Music that makes you come alive",
+    dates: "2019",
+    url: "https://mayoneese.club/",
+    logo: "projects/mayoneese.png"
+  },
 
   // OWH / Tranq / Mayoneese
 ];
