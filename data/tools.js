@@ -1,11 +1,5 @@
 export default [
   {
-    name: "Figma",
-    description: "Collaborative interface design tool",
-    url: "https://www.figma.com/",
-    logo: "tools/figma.jpg"
-  },
-  {
     name: "React",
     description: "JavaScript library for building user interfaces",
     url: "https://reactjs.org/",
@@ -17,12 +11,18 @@ export default [
     url: "https://www.gatsbyjs.com/",
     logo: "tools/gatsby.png"
   },
-  // {
-  //   name: "Ruby on Rails",
-  //   description: "Server-side web application framework",
-  //   url: "https://rubyonrails.org/",
-  //   logo: "tools/ruby.png"
-  // },
+  {
+    name: "Redux",
+    description: "Predictable state container for JS Apps",
+    url: "https://redux.js.org/",
+    logo: "tools/redux.png"
+  },
+  {
+    name: "Figma",
+    description: "Collaborative interface design tool",
+    url: "https://www.figma.com/",
+    logo: "tools/figma.jpg"
+  },
   {
     name: "GitHub",
     description: "World's leading software development platform",
@@ -34,5 +34,5 @@ export default [
     description: " All-in-one workflow for modern web projects",
     url: "https://www.netlify.com/",
     logo: "tools/netlify.png"
-  },
+  }
 ];
