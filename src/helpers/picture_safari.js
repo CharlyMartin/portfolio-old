@@ -1,4 +1,4 @@
-function pictureSafari() {
+export function pictureSafari() {
   const picture = document.querySelector(".sidebar-picture img");
   const pictureContainer = document.querySelector(".sidebar-picture");
 
@@ -15,5 +15,3 @@ function pictureSafari() {
 
   removePicture();
 }
-
-export { pictureSafari };

@@ -1,4 +1,4 @@
-function toggleButton() {
+export function toggleButton() {
   const brandTop = document.querySelector(".sidebar").getBoundingClientRect().top;
   const bannerHeight = document.querySelector(".background-light").offsetHeight;
 
@@ -19,5 +19,3 @@ function toggleButton() {
 
   window.addEventListener('scroll', toggleActive);
 }
-
-export { toggleButton };

@@ -18,6 +18,12 @@ export default [
     logo: "tools/redux.png"
   },
   {
+    name: "Netlify",
+    description: " All-in-one workflow for modern web projects",
+    url: "https://www.netlify.com/",
+    logo: "tools/netlify.png"
+  },
+  {
     name: "Figma",
     description: "Collaborative interface design tool",
     url: "https://www.figma.com/",
@@ -28,11 +34,5 @@ export default [
     description: "World's leading software development platform",
     url: "https://github.com/",
     logo: "tools/github.png"
-  },
-  {
-    name: "Netlify",
-    description: " All-in-one workflow for modern web projects",
-    url: "https://www.netlify.com/",
-    logo: "tools/netlify.png"
   }
 ];

@@ -1,6 +1,6 @@
 export default [
   {
-    name: "Hubsy",
+    name: "Hubsy Café",
     about: "The coolest co-working space in Paris",
     dates: "2016 - 2019",
     url: "https://www.hubsy.fr/",

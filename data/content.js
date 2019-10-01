@@ -5,7 +5,7 @@ export default {
     links: [
       { name: "LinkedIn", url: "https://www.linkedin.com/in/charlymartin/" },
       { name: "GitHub", url: "https://github.com/CharlyMartin" },
-      { name: "Medium", url: "https://medium.com/@charly.martin" }
+      { name: "Twitter", url: "https://twitter.com/charly_mrtn" }
     ],
     cta: "Email",
     link: "mailto:hello@charlymartin.me",
@@ -13,8 +13,10 @@ export default {
   },
   header: {
     hello: "hello you",
-    me: "I am Charly, a freelance front-end developer from France. I design and code web interfaces for others and myself, I also work with Le Wagon as a Lead Teacher worldwide. And I love disco, but that's for another day.",
-    you: "I would love to hear about you and your projects. I am always happy to discuss new collaborations, or point you in the right direction if I can't handle it.",
+    me:
+      "I am Charly, a freelance front-end developer from France. I design and code web interfaces for others and myself, I also work with Le Wagon as a Lead Teacher worldwide. And I love disco, but that's for another day.",
+    you:
+      "I would love to hear about you and your projects. I am always happy to discuss new collaborations, or point you in the right direction if I can't handle it.",
     cta: "drop me an email",
     link: "mailto:ahoycm@gmail.com?subject=I fancy a great website",
     email: "hello@charlymartin.me"
